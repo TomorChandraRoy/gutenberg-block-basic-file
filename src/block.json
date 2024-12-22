@@ -1,0 +1,20 @@
+
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/basic-plugin",
+	"version": "1.0.0",
+	"title": "Basic Plugin",
+	"category": "widgets",
+	"icon": "editor-expand",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "basic-plugin",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
